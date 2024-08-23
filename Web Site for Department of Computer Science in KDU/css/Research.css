@@ -1,0 +1,93 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px black;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul.research-projects {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul.research-projects li {
+    margin-bottom: 20px;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgb(5, 5, 48);
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    color: white;
+}
+ul.research-projects li:hover {
+    background-color: #005f99;
+}
+
+ul.research-projects li:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.research-link {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.button-container {
+    text-align: center;
+}
+.return-button {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Programs.css">
+    <title>Degree Programs</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Degree Programs</h1>
+    </header>
+
+     <section class="download" id="download">
+        <div class="heading">
+            <h1>Our Degree programs..</h1>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Software-Engineer.jpg" alt="logo-SE">
+
+                <h3>Bsc(Hons) Software Engineering</h3>
+                
+                <a href="BSE.html" class="all-btn">View More</a>
+            </div>
+
+           
+
+            <div class="box">
+                <img src="images/Computer-Science.jpg" alt="logo-CS">
+
+                <h3>Bsc(Hons) Computer Science</h3>
+                
+                <a href="BCS.html" class="all-btn">View More</a>
+            </div>
+        </div>
+    </section>
+
+
+    
+<button id="back-to-top-button">Back to Top</button>
+<script>
+
+var button = document.getElementById("back-to-top-button");
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+window.addEventListener("scroll", function() {
+    if (document.documentElement.scrollTop > 100) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+});
+
+button.addEventListener("click", scrollToTop);
+</script>
+<div class="button-container">
+  <a href="Index.html" class="return-button">Return to Home</a>
+</div>
+<footer>
+  <p>&copy; 2023 Degree Programs</p>
+</footer>
+
+</body>
+</html>
